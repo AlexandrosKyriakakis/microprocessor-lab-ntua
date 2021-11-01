@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/alexanders_mac/Desktop/Profiteus/NTUA/Εργαστήριο Μικρουπολογιστών/Εργαστηριακές Ασκήσεις/Lab_5/RVfpga/examples/LedsSwitches_C-Lang/.pio/build/swervolf_nexys/firmware.elf",
+            "projectEnvName": "swervolf_nexys",
+            "toolchainBinDir": "/Users/alexanders_mac/.platformio/packages/toolchain-riscv/bin",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/alexanders_mac/Desktop/Profiteus/NTUA/Εργαστήριο Μικρουπολογιστών/Εργαστηριακές Ασκήσεις/Lab_5/RVfpga/examples/LedsSwitches_C-Lang/.pio/build/swervolf_nexys/firmware.elf",
+            "projectEnvName": "swervolf_nexys",
+            "toolchainBinDir": "/Users/alexanders_mac/.platformio/packages/toolchain-riscv/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
